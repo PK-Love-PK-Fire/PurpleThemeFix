@@ -44,7 +44,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
 #rcp-fe-viewport-root {
-    display: flex;
+    dis: flex;
     width: 1280px;
     height: 720px;
     position: relative;
@@ -69,7 +69,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     width: 100%;
     height: 100%;
     position: relative;
-    display: flex;
+    dis: flex;
     flex-direction: column;
     color: #a09b8c;
     font-size: 12px;
@@ -80,7 +80,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
 .section, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section {
-    display: flex;
+    dis: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -123,7 +123,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
 .section, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section {
-    display: flex;
+    dis: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -173,7 +173,7 @@ lol-uikit-full-page-backdrop {
 }
 
 .parties-header-button-container .back-button-container.back-button-shown {
-    display: block;
+    dis: block;
     filter: saturate(0);
 }
 
@@ -233,7 +233,7 @@ lol-uikit-full-page-backdrop {
   margin-top: -60px !important;
 }
 
-.play-button-container{
+.-button-container{
   background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
   background: linear-gradient(-90deg, #382B7A, #241666) !important;
   border-radius: 50px !important;
@@ -255,7 +255,7 @@ lol-uikit-full-page-backdrop {
 .play-button-text{
   color: #fff !important;
   font-family: 'Open Sans', sans-serif !important;
-  content: '▶ PLAY' !important;
+  content: '▶' !important;
   visibility: hidden;
   z-index: 0 !important;
 }
